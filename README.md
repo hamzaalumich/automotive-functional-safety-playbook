@@ -217,3 +217,7 @@ Hamza Alzakarneh is an electrical engineer working across automotive electronics
 ## Use and attribution
 
 The material is an original educational and engineering organization of functional-safety concepts. It does not reproduce the licensed ISO 26262 text and must not replace a project’s approved safety plan, customer requirements, legal obligations, or official standard.
+
+## Use and attribution
+
+The material is an original educational and engineering organization of functional-safety concepts. It does not reproduce the licensed ISO 26262 text and mu
