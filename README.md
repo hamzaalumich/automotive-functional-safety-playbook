@@ -60,11 +60,11 @@ The diagram is intentionally evidence-driven. Every arrow represents a traceabil
 
 | Layer | Engineering intent | Typical output |
 |---|---|---|
-| **1 — Risk** | Define the item, malfunctioning behavior, operational context, and unacceptable vehicle-level outcomes | Item definition, HARA, safety goals |
-| **2 — Requirements** | Convert safety intent into measurable and allocated behavior | FSC, TSC, FSRs, TSRs, interface requirements |
-| **3 — Architecture** | Build fault containment, monitoring, independence, and safe/degraded behavior into the design | Safety architecture, timing budget, DFA, interface controls |
-| **4 — Implementation** | Realize the safety concept in hardware, software, calibration, diagnostics, and manufacturing controls | Schematics, software, FMEDA, design reviews, testability |
-| **5 — Evidence** | Demonstrate that the released configuration satisfies the safety intent | Verification, fault injection, validation, safety case, release decision |
+| **Risk** | Define the item, malfunctioning behavior, operational context, and unacceptable vehicle-level outcomes | Item definition, HARA, safety goals |
+| **Requirements** | Convert safety intent into measurable and allocated behavior | FSC, TSC, FSRs, TSRs, interface requirements |
+| **Architecture** | Build fault containment, monitoring, independence, and safe/degraded behavior into the design | Safety architecture, timing budget, DFA, interface controls |
+| **Implementation** | Realize the safety concept in hardware, software, calibration, diagnostics, and manufacturing controls | Schematics, software, FMEDA, design reviews, testability |
+| **Evidence** | Demonstrate that the released configuration satisfies the safety intent | Verification, fault injection, validation, safety case, release decision |
 
 A mature project keeps all five layers synchronized. A requirement change at Layer 2 can invalidate analysis at Layer 3 and evidence at Layer 5.
 
