@@ -1,0 +1,31 @@
+Lens,Rating,Level,Criterion,Evidence_Prompt,Color_Band
+Severity,10,Critical safety consequence,"Potential life-threatening injury or uncontrolled hazardous vehicle response with little practical mitigation","Hazard linkage; vehicle effect; safety-goal relevance; operating scenario",Red
+Severity,9,Severe safety or compliance consequence,"Potential serious injury, loss of safety-critical function, or major safety-related noncompliance","Safety analysis; regulatory interface; warning and mitigation assumptions",Red
+Severity,8,Primary function lost,"Primary function is lost, vehicle/product becomes inoperable, or immediate controlled shutdown is required","Functional architecture; safe or degraded state definition",Orange
+Severity,7,Major degradation,"Major function is significantly degraded, continued use is restricted, or immediate service is required","Vehicle/customer effect; operating limitation",Orange
+Severity,6,Functional reduction,"Subsystem remains available with clear performance, availability, or operating-range reduction","Measured boundary; requirement deviation",Amber
+Severity,5,Customer disruption,"Function remains available but customer experiences clear performance or convenience loss","Customer-visible symptom; requirement comparison",Amber
+Severity,4,Minor deviation,"Limited performance deviation with practical workaround and no material risk","Workaround and performance evidence",Amber
+Severity,3,Nuisance,"Noticeable effect without meaningful loss of intended function","Observable symptom; no-loss rationale",Teal
+Severity,2,Trace effect,"Barely perceptible effect that does not change normal use","Measurement or tolerance comparison",Teal
+Severity,1,No meaningful effect,"No credible customer, vehicle, manufacturing, or downstream functional effect","Containment or irrelevance analysis",Teal
+Occurrence,10,Persistent,"Cause is active in normal conditions and failure is routinely reproduced","Repeated normal-condition test or field evidence",Red
+Occurrence,9,Very frequent,"Cause is commonly encountered and requires little combination of conditions","High-frequency data; weak margin; dominant mechanism",Red
+Occurrence,8,Recurrent,"Failure repeats across builds, units, environments, or operating cycles","Multi-unit reproduction; confirmed cause",Orange
+Occurrence,7,Frequent,"Failure occurs in a defined but regularly encountered operating scenario","Scenario exposure; reproduced mechanism",Orange
+Occurrence,6,Occasional,"Credible cause has appeared in test, production, supplier, or field evidence","Documented events; relevant configuration",Amber
+Occurrence,5,Intermittent,"Cause is credible but requires a limited combination of conditions or has sparse evidence","Boundary test; early-life data; mechanism analysis",Amber
+Occurrence,4,Infrequent,"Cause requires multiple contributing conditions or is strongly reduced by design/process margin","Margin and process-capability evidence",Amber
+Occurrence,3,Rare,"Cause is physically credible only near unusual or extreme conditions","Stress analysis; rare-condition exposure",Teal
+Occurrence,2,Highly unlikely,"Mechanism is difficult to realize within the validated operating envelope","Robust margin; no observed events; capability evidence",Teal
+Occurrence,1,Remote,"No credible cause remains after design review, analysis, and representative validation","Documented prevention evidence",Teal
+Detection,10,No effective control,"No prevention or detection control exists before exposure","Explicit control gap",Red
+Detection,9,Field-only discovery,"Issue is most likely discovered through complaint, field failure, or teardown","Field-detection path only",Red
+Detection,8,Weak sampling,"Sampling or limited inspection may detect the issue but escape probability remains high","Sampling plan; blind spots",Orange
+Detection,7,Manual dependency,"Detection depends heavily on operator judgment, visual inspection, setup, or exact conditions","Work instruction; human-factor limitation",Orange
+Detection,6,Partial automated control,"Automated control exists but does not cover full fault population or operating range","Coverage gaps; test limits; missed-fault analysis",Amber
+Detection,5,Moderate control,"Controls detect many cases but boundary, timing, or latent-fault gaps remain","Test evidence; residual escape conditions",Amber
+Detection,4,Robust detection,"Automated detection is repeatable, limits are controlled, and reaction is defined","Capability; calibration; thresholds; reaction evidence",Amber
+Detection,3,Independent detection,"Functionally independent monitor detects the fault within required time and controls the reaction","Independence; timing capture; fault injection",Teal
+Detection,2,Multi-layer control,"Independent prevention and detection layers cover the fault with periodic proof or self-test","Layered coverage; proof-test interval; dependency review",Teal
+Detection,1,Prevention or near-certain control,"Cause is prevented by design or detected automatically with validated near-complete coverage and controlled reaction","Prevention; validated coverage; configuration control",Teal
