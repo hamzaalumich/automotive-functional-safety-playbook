@@ -1,0 +1,2 @@
+Test_ID,Safety_Goal_ID,Requirement_ID,Safety_Mechanism,Fault_Mode,Injection_Point,Operating_Condition,Expected_Detection,Expected_Reaction,Max_Reaction_Time,Configuration,Evidence_ID,Result,Anomaly_ID
+FIT-001,SG-001,TSR-001,Torque disagreement monitor,Torque command frozen high,Network/internal command interface,Low-speed propulsion enabled,Disagreement diagnostic asserted,Independent torque inhibit activated,,,,Planned,

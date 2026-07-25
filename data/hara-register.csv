@@ -1,0 +1,2 @@
+HARA_ID,Function,Malfunctioning_Behavior,Operational_Situation,Hazardous_Event,Severity,Severity_Rationale,Exposure,Exposure_Rationale,Controllability,Controllability_Rationale,ASIL,Safety_Goal_ID,Safety_Goal,Assumptions,Owner,Review_Status
+HARA-001,Electric-drive torque control,Unintended positive torque,Vehicle stationary near pedestrians,Unexpected vehicle motion creates impact risk,,,,,,,,SG-001,Prevent unintended drive torque that can create hazardous vehicle motion,Illustrative example only,,Draft

@@ -1,0 +1,2 @@
+Source_ID,Requirement_ID,ASIL,Requirement_Text,Allocation,Design_Reference,Verification_Method,Test_Case_ID,Evidence_ID,Status,Change_Impact_Reference
+SG-001,FSR-001,,Detect torque-command disagreement and control torque within the allocated timing constraint,System,,Analysis and fault-injection test,,,Draft,

@@ -1,0 +1,2 @@
+Claim_ID,Requirement_ID,Evidence_ID,Evidence_Type,Configuration,Result,Limitation_or_Assumption,Owner,Approval_Status
+CLM-001,SG-001,EVD-001,Vehicle-level fault-injection result,,Planned,Illustrative example,,Draft
